@@ -1,0 +1,25 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# AI/ML dependencies
+sentence-transformers>=2.2.0
+transformers>=4.20.0
+torch>=1.12.0
+
+# Vector search and database
+faiss-cpu>=1.7.0  # Use faiss-gpu for GPU acceleration
+# sqlite3 is built-in with Python - no need to install
+
+# Data validation
+pydantic>=1.9.0
+
+# Utilities
+python-dateutil>=2.8.0
+tqdm>=4.64.0
+
+# Optional: For production deployment
+# uvicorn>=0.17.0
+# fastapi>=0.78.0
